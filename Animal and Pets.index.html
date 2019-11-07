@@ -1,0 +1,328 @@
+<HTML>
+<HEAD>
+<TITLE> Animals and Pets </TITLE>
+</HEAD>
+<HEAD>
+	<STYLE type='text/css'>
+#catpic {
+			height:45%;
+			position:absolute;
+			top:40%;
+			left:2%;
+			z-index:6;
+			opacity:1;
+		}
+#dogpic {
+			width:30%;
+			position:absolute;
+			top:70%;
+			left:37%;
+			z-index:6;
+			opacity:1;
+		}
+#title {
+			width:30%;
+			position:absolute;
+			top:-8%;
+			left:30%;
+			z-index:6;
+			opacity:1;
+		}
+#rectangle1 {
+			width:101%;
+			height:27%;
+			background-color:#8EC4FF;
+			position:absolute;
+			top:0%;
+			left:0%;
+			z-index:2;
+			opacity:1;
+			}
+
+#rectangle2 {
+			width:31%;
+			height:101%;
+			background-color:#17CAFF;
+			position:absolute;
+			top:27%;
+			left:70%;
+			z-index:2;
+			opacity:1;
+			}
+#rectangle3 {
+			width:102%;
+			height:50%;
+			background-color:#4692F9;
+			position:absolute;
+			top:128%;
+			left:-1%;
+			z-index:3;
+			opacity:1;
+			}
+#rectangle4 {
+			width:10%;
+			height:7%;
+			background-color:#0ACEDB;
+			position:absolute;
+			top:116%;
+			left:30%;
+			z-index:3;
+			opacity:1;
+			}
+#topic {
+			color:orange;
+			font-size: 40px;
+			font-family: 'Impact';
+			position: absolute;
+			top:28%;
+			left:72%;
+			z-index:3;
+			}
+#text1 {
+			color:orange;
+			font-size: 30px;
+			font-family: 'Impact';
+			position: absolute;
+			top:32%;
+			left:72%;
+			z-index:3;
+			}
+#credit {
+			color:#CE00F7;
+			font-size: 40px;
+			font-family: 'Impact';
+			position: absolute;
+			top:128%;
+			left:32%;
+			z-index:3;
+			}
+#text2 {
+			color:#00FE36;
+			font-size: 25px;
+			font-family: 'Impact';
+			position: absolute;
+			top:133%;
+			left:30%;
+			z-index:3;
+			}
+#text3 {
+			color:green;
+			font-size: 40px;
+			font-family: 'Impact';
+			position: absolute;
+			top:63%;
+			left:20%;
+			z-index:3;
+			}
+#text4 {
+			color:#3A0ADB;
+			font-size: 40px;
+			font-family: 'Impact';
+			position: absolute;
+			top:90%;
+			left:2%;
+			z-index:3;
+			}
+#text5 {
+			color:#FEC400;
+			font-size: 40px;
+			font-family:'Impact';
+			position: absolute;
+			top:116%;
+			left:32%;
+			z-index:3;
+			}
+#logo {
+			width:100%;
+			position:absolute;
+			top:-85%;
+			left:-450%;
+			z-index:6;
+			opacity:1;
+		}
+nav{
+	position: absolute;
+	z-index: 10;
+}
+		nav ul ul {
+display: none;
+}
+
+nav ul li:hover > ul {
+display: block;
+width: 180px;
+}
+
+nav ul {
+background: #000000; 
+box-shadow: 0px 0px 9px rgba(0,0,0,0.8);
+padding: 0 0px;
+padding-top: 0px;
+border-radius: 0px; 
+list-style: none;
+position: relative;
+display: inline-table;
+}
+
+nav ul li {
+float: left;
+width: 238.5px;
+text-align: center;
+color: #FFFFFF;
+}
+
+nav ul li:hover {
+background: linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -moz-linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -webkit-linear-gradient(top, #4f5964 0%,#000000 40%);
+}
+
+nav ul li:hover a {
+color: #fff;
+}
+
+nav ul li a {
+display: block; padding: 25px 0px;
+
+}
+
+nav ul ul {
+background: #5f6975; border-radius: 0px; padding: 0px;
+position: absolute; top: 100%; 
+}
+
+nav ul ul li {
+float: none; 
+border-top: 1px solid #000000;
+border-bottom: 1px solid #000000;
+position: relative;
+padding: 0px 0px; 
+text-align: center;
+}
+
+nav ul ul li a {
+padding: 0px 0px;
+color: #fff;
+} 
+
+nav ul ul li a:hover {
+background: #000000;
+background: linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -moz-linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -webkit-linear-gradient(top, #4f5964 0%,#000000 40%);
+}
+	</STYLE>
+</HEAD>
+<BODY>
+	<IMG src='cats.jpg' id='catpic'> </IMG>
+	<IMG src='dogs.jpeg' id='dogpic'> </IMG>	
+	<IMG src='shape.png' id='title'> </IMG>	
+	<DIV id='rectangle1'></DIV>
+	<DIV id='rectangle2'></DIV>
+	<DIV id='rectangle3'></DIV>
+	<DIV id='rectangle4'></DIV>
+	<SPAN id='topic'> NEED FOR A PET: </SPAN>
+	<SPAN id='text1'>
+	<IMG src='logo.png' id='logo'> </IMG>	
+	
+		<UL>
+		<LI> FOOD </LI>
+		<LI> WATER </LI>
+		<LI> SHELTER/BED </LI>
+		<LI> EXERCISE </LI>
+		<LI> CARE </LI>
+		<LI> LOVE </LI>
+		</UL>
+	</SPAN>
+	<SPAN id='credit'> CREDIT </SPAN>
+	<SPAN id='text2'>
+	
+		<UL>
+		<LI> ABOUT US </LI>
+		<LI> MAMMLES </LI>
+		<LI> REPTILES </LI>
+		<LI> AMPHIBIANS </LI>
+		<LI> FISH </LI>
+		<LI> BIRDS </LI>
+		<LI> OTHERS </LI>
+		<LI> QUICK TOUR </LI>
+		</UL>
+	</SPAN>
+	<SPAN id='text3'> HOW TO TAKE CARE OF CATS! </SPAN>
+	<SPAN id='text4'> HOW TO TAKE CARE OF DOGS!</SPAN>
+	<SPAN id='text5'> MORE </SPAN>
+
+
+<BR><BR><BR><BR><BR><BR><BR><BR>
+<NAV>
+<UL>
+	<LI> MAMMAL
+		<UL>
+			<LI><A href=''> CAT</A></LI>
+			<LI><A href=''> DOG</A> </LI>
+			<LI><A href=''> HAMSTER</A> </LI>
+			<LI><A href=''> PIG </A></LI>
+			<LI><A href=''> RABBIT </A></LI>
+			<LI><A href=''> HEDGEHOG </A></LI>
+		</UL>
+	</LI>
+	<LI> REPTILES
+		<UL>
+			<LI><A href=''> LIZARD</A> </LI>
+			<LI><A href=''> SNAKE </A></LI>
+			<LI><A href=''> TURTLE </A></LI>
+			<LI><A href=''> GECKO</A> </LI>
+			<LI><A href=''> IGUANA</A> </LI>
+			<LI><A href=''> CHAMELEON</A> </LI>
+		</UL>
+	</LI>
+	<LI> AMPHIBIANS
+		<UL>
+			<LI><A href=''> NEWT</A> </LI>
+			<LI><A href=''> SALAMANDER </A></LI>
+			<LI><A href=''> FROG </A></LI>
+			<LI><A href=''> TOAD </A></LI>
+			<LI><A href=''> AXOLOTI </A></LI>
+
+		</UL>
+	</LI>
+	<LI> FISH
+		<UL>
+			<LI><A href=''> TETRA</A> </LI>
+			<LI><A href=''> GUPPY </A></LI>
+			<LI><A href=''> GOLD FISH </A></LI>
+			<LI><A href=''> SIAMESE FIGHTING FISH</A> </LI>
+			<LI><A href=''> COMMON MOLLY</A> </LI>
+			<LI><A href=''> PLATY</A> </LI>
+
+		</UL>
+	</LI>
+
+	<LI> BIRDS
+		<UL>
+			<LI><A href=''> PARROT</A> </LI>
+			<LI><A href=''> MACAW </A></LI>
+			<LI><A href=''> BUDGY </A></LI>
+			<LI><A href=''> COCKATOO </A></LI>
+			<LI><A href=''> LOVEBIRD </A></LI>
+			<LI><A href=''> CONURE </A></LI>
+		</UL>
+	</LI>
+	<LI> OTHER
+		<UL>
+			<LI><A href=''> STICK INSECT</A> </LI>
+			<LI><A href=''> LAND CRAB </A></LI>
+			<LI><A href=''> PRAYING MANTIS </A></LI>
+			<LI><A href=''> TARANTULA </A></LI>
+			<LI><A href=''> SHRIMP </A></LI>
+			<LI><A href=''> CLAM </A></LI>
+			<LI><A href=''> SNAIL </A></LI>
+
+		</UL>
+	</LI>
+
+</UL>
+</NAV>
+
+</BODY>
+</HTML>
